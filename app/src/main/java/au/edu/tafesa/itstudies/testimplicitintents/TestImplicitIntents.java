@@ -8,9 +8,9 @@ import android.util.Log;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
-import android.support.v7.app.ActionBarActivity ;
+import android.app.Activity;
 
-public class TestImplicitIntents  extends ActionBarActivity {
+public class TestImplicitIntents  extends Activity {
 
     private static final String CLASS_TAG = "TestImplicitIntents";
 
@@ -42,8 +42,9 @@ public class TestImplicitIntents  extends ActionBarActivity {
             @Override
             public void onClick(View v) {
                 Intent intent;
-                intent= new Intent(Intent.ACTION_PICK, ContactsContract.Contacts.CONTENT_URI);
+                intent = new Intent(Intent.ACTION_PICK, ContactsContract.Contacts.CONTENT_URI);
                 startActivity(intent);
             }
         });
     }
+}
