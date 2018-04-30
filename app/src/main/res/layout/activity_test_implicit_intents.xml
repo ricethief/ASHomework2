@@ -32,6 +32,22 @@
             android:layout_below="@+id/btnContacts"
             android:layout_alignParentStart="true" />
 
+        <Button
+            android:id="@+id/btnEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/btnEmail"
+            android:layout_below="@+id/btnContacts"
+            android:layout_alignParentStart="true" />
+
+        <Button
+            android:id="@+id/btnSendSMS"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/btnSendSMS"
+            android:layout_below="@+id/btnContacts"
+            android:layout_alignParentStart="true" />
+
 
     </LinearLayout> 
 

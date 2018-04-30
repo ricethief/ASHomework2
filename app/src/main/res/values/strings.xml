@@ -2,4 +2,6 @@
     <string name="app_name">TestImplicitIntents</string>
     <string name="btnContacts">View Contacts</string>
     <string name="btnGoogleSearch">Google Search</string>
+    <string name="btnEmail">Email</string>
+    <string name="btnSendSMS">Send SMS</string>
 </resources>
